@@ -20,9 +20,9 @@ function ContactUs() {
           Contact Us
         </h1>
         <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center">
-          We're here to assist you with any questions or inquiries about our
-          event planning, catering services, or consultations. Reach out to us,
-          and let's make your event unforgettable!
+          We&apos;re here to assist you with any questions or inquiries about
+          our event planning, catering services, or consultations. Reach out to
+          us, and let&apos;s make your event unforgettable!
         </p>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
           <input
