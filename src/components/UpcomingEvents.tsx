@@ -81,7 +81,7 @@ function UpcomingEvents() {
           </p>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 z-0">
           <HoverEffect
             items={featuredEvents.map((event) => ({
               title: event.title,
