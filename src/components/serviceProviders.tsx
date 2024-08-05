@@ -7,13 +7,13 @@ const serviceProviders = [
     id: 1,
     name: "Shubham Gupta",
     designation: "Wedding Planner",
-    image: "/serviceProviders/Wedding-Planner.jpg",
+    image: "/ServiceProviders/Wedding-Planner.jpg",
   },
   {
     id: 2,
     name: "Pankaj Gupta",
     designation: "Event Coordinator",
-    image: "/serviceProviders/Event-Coordinator.jpg",
+    image: "/ServiceProviders/Event-Coordinator.jpg",
   },
   {
     id: 3,
@@ -26,13 +26,13 @@ const serviceProviders = [
     id: 4,
     name: "Bittu Ballon",
     designation: "Decoration Expert",
-    image: "/serviceProviders/decoration.jpg",
+    image: "/ServiceProviders/decoration.jpg",
   },
   {
     id: 5,
     name: "Fitty Gupta",
     designation: "Photography Specialist",
-    image: "/serviceProviders/Photography.jpg",
+    image: "/ServiceProviders/Photography.jpg",
   },
   {
     id: 6,
