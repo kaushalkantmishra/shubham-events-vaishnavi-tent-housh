@@ -1,0 +1,242 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Wedding Ceremony",
+      "slug": "wedding-ceremony",
+      "description": "Create your dream wedding with our expert planning and coordination services. From traditional to contemporary, we tailor every detail to your vision.",
+      "price": 5000.0,
+      "duration": "1 day",
+      "location": "Any venue",
+      "highlights": [
+        "Customizable ceremonies",
+        "Floral arrangements",
+        "Guest management",
+        "Personalized decor"
+      ],
+      "isFeatured": true,
+      "image": "/services/wedding-ceremony.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Destination Wedding",
+      "slug": "destination-wedding",
+      "description": "Plan a perfect destination wedding with our comprehensive services. We handle everything from travel arrangements to venue selection, ensuring a seamless experience.",
+      "price": 10000.0,
+      "duration": "2-3 days",
+      "location": "Various destinations",
+      "highlights": [
+        "Travel and accommodation",
+        "Venue scouting",
+        "Local vendors",
+        "Legal formalities"
+      ],
+      "isFeatured": true,
+      "image": "/services/destination-wedding.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Social Events",
+      "slug": "social-events",
+      "description": "Host memorable social gatherings with our event management services. Whether it's a family reunion or a charity gala, we ensure a flawless execution.",
+      "price": 2000.0,
+      "duration": "Varies",
+      "location": "Indoor/Outdoor",
+      "highlights": [
+        "Custom themes",
+        "Entertainment options",
+        "Guest engagement",
+        "Full event coordination"
+      ],
+      "isFeatured": false,
+      "image": "/services/social-events.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Corporate Events",
+      "slug": "corporate-events",
+      "description": "Professional planning and execution for all corporate events. From team-building activities to product launches, we offer tailored solutions to meet your needs.",
+      "price": 7000.0,
+      "duration": "1 day",
+      "location": "Conference halls, hotels",
+      "highlights": [
+        "Event branding",
+        "AV equipment",
+        "Guest speakers",
+        "Networking opportunities"
+      ],
+      "isFeatured": true,
+      "image": "/services/corporate-events.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Birthday Party",
+      "slug": "birthday-party",
+      "description": "Make birthdays special with our unique party planning services. From kids' birthdays to milestone celebrations, we create unforgettable experiences.",
+      "price": 1500.0,
+      "duration": "3-5 hours",
+      "location": "Homes, banquet halls",
+      "highlights": [
+        "Themed decor",
+        "Cake and catering",
+        "Games and activities",
+        "Party favors"
+      ],
+      "isFeatured": true,
+      "image": "/services/birthday-party.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Theme Party",
+      "slug": "theme-party",
+      "description": "Bring your theme party vision to life with our creative services. From masquerades to retro nights, we set the perfect ambiance for your event.",
+      "price": 2500.0,
+      "duration": "3-5 hours",
+      "location": "Any location",
+      "highlights": [
+        "Custom decor",
+        "Costume suggestions",
+        "Themed music and entertainment",
+        "Photo booths"
+      ],
+      "isFeatured": true,
+      "image": "/services/theme-party.jpg"
+    },
+    {
+      "id": 7,
+      "title": "College Fest",
+      "slug": "college-fest",
+      "description": "Organize an unforgettable college fest with our event management expertise. From cultural shows to competitions, we cover all aspects.",
+      "price": 3000.0,
+      "duration": "1-2 days",
+      "location": "College campuses",
+      "highlights": [
+        "Stage setup",
+        "Celebrity appearances",
+        "Food stalls",
+        "Sponsorship opportunities"
+      ],
+      "isFeatured": false,
+      "image": "/services/college-fest.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Live Singing",
+      "slug": "live-singing",
+      "description": "Book live singing performances for a musical experience. From solo acts to bands, we provide a wide range of musical genres.",
+      "price": 5000.0,
+      "duration": "1-2 hours",
+      "location": "Any venue",
+      "highlights": [
+        "Professional singers",
+        "Custom setlists",
+        "Sound system setup",
+        "Audience interaction"
+      ],
+      "isFeatured": true,
+      "image": "/services/live-singing.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Conferencing and Seminars",
+      "slug": "conferencing-and-seminars",
+      "description": "Professional services for conferencing and seminar events. We offer venue setup, guest management, and technical support.",
+      "price": 4000.0,
+      "duration": "1 day",
+      "location": "Conference centers, hotels",
+      "highlights": [
+        "AV equipment",
+        "Speaker arrangements",
+        "Event branding",
+        "On-site support"
+      ],
+      "isFeatured": false,
+      "image": "/services/conferencing-seminars.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Light and Sound",
+      "slug": "light-and-sound",
+      "description": "Expert light and sound setup for all events. We provide state-of-the-art equipment and experienced technicians to enhance your event.",
+      "price": 2000.0,
+      "duration": "Varies",
+      "location": "Indoor/Outdoor",
+      "highlights": [
+        "Custom lighting designs",
+        "Sound system setup",
+        "Special effects",
+        "On-site technical support"
+      ],
+      "isFeatured": true,
+      "image": "/services/light-sound.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Decoration",
+      "slug": "decoration",
+      "description": "Stunning decorations for all types of events. Our team creates beautiful setups tailored to your theme and preferences.",
+      "price": 3000.0,
+      "duration": "Varies",
+      "location": "Any location",
+      "highlights": [
+        "Floral arrangements",
+        "Custom props",
+        "Table settings",
+        "Venue transformation"
+      ],
+      "isFeatured": false,
+      "image": "/services/decoration.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Stage Setup",
+      "slug": "stage-setup",
+      "description": "Professional stage setup for performances and events. We offer custom designs and complete technical support.",
+      "price": 3500.0,
+      "duration": "Varies",
+      "location": "Indoor/Outdoor",
+      "highlights": [
+        "Custom stage designs",
+        "Lighting and sound",
+        "Backdrops and screens",
+        "On-site management"
+      ],
+      "isFeatured": false,
+      "image": "/services/stage-setup.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Photography",
+      "slug": "photography",
+      "description": "Capture beautiful moments with our professional photography services. Our skilled photographers offer a range of styles and packages.",
+      "price": 4000.0,
+      "duration": "Varies",
+      "location": "Any location",
+      "highlights": [
+        "Event coverage",
+        "Portrait sessions",
+        "Photo albums",
+        "Online gallery"
+      ],
+      "isFeatured": true,
+      "image": "/services/photography.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Videography",
+      "slug": "videography",
+      "description": "Professional videography services to document your special moments. We create high-quality videos tailored to your event's style.",
+      "price": 4500.0,
+      "duration": "Varies",
+      "location": "Any location",
+      "highlights": [
+        "Event filming",
+        "Highlight reels",
+        "Full event coverage",
+        "Editing and post-production"
+      ],
+      "isFeatured": true,
+      "image": "/services/videography.jpg"
+    }
+  ]
+}

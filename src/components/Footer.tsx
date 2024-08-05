@@ -5,9 +5,10 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+            Shubham Events and Catering specializes in creating memorable events
+            with a personal touch. From exceptional catering to seamless event
+            planning, we bring your vision to life with expertise and
+            creativity.
           </p>
         </div>
         <div>
@@ -15,7 +16,7 @@ function Footer() {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -23,23 +24,23 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
-                About
+                About Us
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/services"
                 className="hover:text-white transition-colors duration-300"
               >
-                Courses
+                Services
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/contact"
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
@@ -51,7 +52,7 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a
-              href="#"
+              href="https://www.facebook.com/sonikshubham?mibextid=ZbWKwL"
               className="hover:text-white transition-colors duration-300"
             >
               Facebook
@@ -63,7 +64,7 @@ function Footer() {
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/unpaird__electron?igsh=MTNhbW9sNWFvZXE4dg=="
               className="hover:text-white transition-colors duration-300"
             >
               Instagram
@@ -72,14 +73,21 @@ function Footer() {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Latehar, Jharkhand, India</p>
+          <p>Bajartad, Latehar - 829206</p>
+          <p>Email: sonikshubham60@gmail.com</p>
+          <p>Phone: (+91) 8340561344</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2024 Music School. All rights reserved.
+        © 2024 Shubham Events and Catering. All rights reserved. Developed with
+        <span className="text-red-500">&#9829;</span> by{" "}
+        <a
+          href="https://kaushal-portfolio-lime.vercel.app/"
+          className="text-teal-500 hover:text-teal-300 transition-colors duration-300"
+        >
+          Kaushal
+        </a>
       </p>
     </footer>
   );

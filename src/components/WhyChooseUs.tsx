@@ -2,43 +2,49 @@
 import React from "react";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 
-const musicSchoolContent = [
+const eventCateringContent = [
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title:
+      "Exceptional Event Planning Services Tailored to Your Unique Needs for a Flawless Experience",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "Our expert team delivers exceptional event planning services tailored to your unique needs. From initial concept to final execution, we ensure every detail is managed with precision, creating unforgettable events that exceed your expectations.",
   },
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title:
+      "Gourmet Catering for Every Occasion: Elevate Your Event with Exquisite Menus and Personalized Options",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "Indulge in gourmet catering that transforms your event into a culinary experience. We offer a wide variety of exquisite menus and personalized options to delight your guests and enhance the overall event atmosphere.",
   },
   {
-    title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
+    title:
+      "Customized Event Solutions for Weddings, Corporate Events, and Private Parties to Reflect Your Vision",
     description:
-      "Embark on a musical journey that’s uniquely yours. Our personalized instruction adapts to your individual needs, setting the stage for unparalleled growth and creativity. At our music school, your aspirations meet our dedicated support, creating a harmonious path to mastery.",
+      "Whether it’s a wedding, corporate event, or private party, we provide customized solutions to meet your specific requirements. Our team works closely with you to create a unique event experience that reflects your vision and style.",
   },
   {
-    title: "Live Feedback & Engagement",
+    title:
+      "Professional and Reliable Service: Ensuring a Smooth and Seamless Event from Start to Finish",
     description:
-      "Immerse yourself in an interactive learning experience where feedback is immediate, just like real-time changes in a collaborative project. This approach enhances your understanding and mastery of music concepts and performance techniques.",
+      "Our commitment to professionalism and reliability ensures your event runs smoothly from start to finish. We take pride in our attention to detail and dedication to delivering exceptional service, making us a trusted partner for your event planning needs.",
   },
   {
-    title: "Cutting-Edge Curriculum",
+    title:
+      "Innovative Event Design that Captivates and Inspires: Bringing Creative Ideas to Life",
     description:
-      "Our curriculum is continuously updated to include the latest music education trends and technologies, ensuring you’re always learning with the most current and effective methods. Say goodbye to outdated materials and welcome an education that evolves with the industry.",
+      "Experience innovative event design that captivates and inspires. We bring creative ideas and cutting-edge solutions to every event, ensuring a memorable and impactful experience for you and your guests.",
   },
   {
-    title: "Limitless Learning Opportunities",
+    title:
+      "Comprehensive Event Support: From Venue Selection to Post-Event Follow-Up for a Successful Outcome",
     description:
-      "With our expansive resource library and dynamic course offerings, you’ll never find yourself without something new to explore. Our platform provides continuous opportunities for growth, ensuring your musical skills are always advancing.",
+      "From venue selection to post-event follow-up, we offer comprehensive support throughout the entire event process. Our team is here to assist with every aspect of your event, providing the expertise and resources needed for a successful outcome.",
   },
 ];
 
 function WhyChooseUs() {
   return (
     <div>
-      <StickyScroll content={musicSchoolContent} />
+      <StickyScroll content={eventCateringContent} />
     </div>
   );
 }

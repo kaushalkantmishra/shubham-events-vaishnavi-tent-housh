@@ -1,54 +1,89 @@
 "use client";
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
-const musicSchoolTestimonials = [
+const shubhamEventsTestimonials = [
   {
     quote:
-      "Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!",
-    name: "Alex Johnson",
-    title: "Guitar Student",
-    image: "/courses/guitar.jpg",
+      "The team at Shubham Events and Catering made our wedding day unforgettable. Their attention to detail and personalized service were outstanding!",
+    name: "Ankit Sharma",
+    title: "Wedding Ceremony Client",
+    image: "/events/wedding.jpg",
   },
   {
     quote:
-      "The community and support at this school are unmatched. I've grown not just as a pianist, but also as a performer, thanks to their comprehensive approach.",
-    name: "Samantha Lee",
-    title: "Piano Student",
-    image: "/courses/piano.jpg",
+      "We hosted a corporate event with Shubham Events, and it was a seamless experience. The professionalism and quality were top-notch.",
+    name: "Priya Singh",
+    title: "Corporate Event Client",
+    image: "/events/corporate.jpg",
   },
   {
     quote:
-      "This school offered me the tools and confidence to take my singing to the next level. I'm endlessly grateful for the personalized coaching.",
-    name: "Michael Chen",
-    title: "Vocal Student",
-    image: "/courses/guitar.jpg",
+      "Shubham Events organized an amazing birthday party for my daughter. The decorations, the food, everything was perfect!",
+    name: "Rahul Verma",
+    title: "Birthday Party Client",
+    image: "/events/birthday.jpg",
   },
   {
     quote:
-      "As a violinist, finding the right mentor can be challenging, but this school matched me with a teacher who truly understands my goals and challenges.",
-    name: "Emily Taylor",
-    title: "Violin Student",
-    image: "/courses/vocalist.jpg",
+      "Our theme party was a huge success thanks to Shubham Events. They brought our vision to life with incredible creativity and expertise.",
+    name: "Neha Kapoor",
+    title: "Theme Party Client",
+    image: "/events/theme.jpg",
   },
   {
     quote:
-      "The production courses here opened my eyes to the intricacies of music production. Highly recommend for any aspiring producers!",
-    name: "Chris Morales",
-    title: "Music Production Student",
-    image: "/courses/drumming.jpg",
+      "The live singing and stage setup were fantastic. Shubham Events knows how to create a memorable experience!",
+    name: "Amit Patel",
+    title: "Live Singing Event Client",
+    image: "/events/live-singing.jpg",
+  },
+  {
+    quote:
+      "The conference we organized was flawless, thanks to Shubham Events. Their attention to detail ensured everything went smoothly.",
+    name: "Rohit Mehta",
+    title: "Conference Client",
+    image: "/events/conference.jpg",
+  },
+  {
+    quote:
+      "Shubham Events provided stunning light and sound for our college fest. The atmosphere was electrifying!",
+    name: "Riya Joshi",
+    title: "College Fest Organizer",
+    image: "/events/college-fest.jpg",
+  },
+  {
+    quote:
+      "From decoration to catering, Shubham Events exceeded our expectations at our anniversary celebration. Highly recommend!",
+    name: "Vikram Saini",
+    title: "Anniversary Party Client",
+    image: "/events/anniversary.jpg",
+  },
+  {
+    quote:
+      "The stage setup and decoration were perfect for our product launch. Shubham Events delivered an impressive experience.",
+    name: "Karan Desai",
+    title: "Product Launch Organizer",
+    image: "/events/product-launch.jpg",
+  },
+  {
+    quote:
+      "The photography and videography team captured our special moments beautifully. We couldn't have asked for a better experience.",
+    name: "Megha Agarwal",
+    title: "Wedding Photography Client",
+    image: "/events/photography.jpg",
   },
 ];
 
-function MusicSchoolTestimonials() {
+function ShubhamEventsTestimonials() {
   return (
     <div className="h-[40rem] w-full dark:bg-black dark:bg-grid-white/[0.2] relative flex flex-col items-center justify-center overflow-hidden">
       <h2 className="text-3xl font-bold text-center mb-8 z-10">
         Hear our Harmony: Voices of success
       </h2>
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-6xl">
+        <div className="w-full max-w-6xl h-64">
           <InfiniteMovingCards
-            items={musicSchoolTestimonials}
+            items={shubhamEventsTestimonials}
             direction="right"
             speed="slow"
           />
@@ -58,4 +93,4 @@ function MusicSchoolTestimonials() {
   );
 }
 
-export default MusicSchoolTestimonials;
+export default ShubhamEventsTestimonials;

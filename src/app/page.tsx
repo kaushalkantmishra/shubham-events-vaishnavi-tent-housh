@@ -1,20 +1,20 @@
-import FeaturedCourses from "@/components/FeaturedCourses";
+import FeaturedServices from "@/components/FeaturedServices";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
-import Instructors from "@/components/Instructors";
-import MusicSchoolTestimonials from "@/components/TestimonialCards";
-import UpcomingWebinars from "@/components/UpcomingWebinars";
+import ServiceProviders from "@/components/serviceProviders";
+import ShubhamEventsTestimonials from "@/components/TestimonialCards";
+import UpcomingEvents from "@/components/UpcomingEvents";
 import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <HeroSection />
-      <FeaturedCourses />
+      <FeaturedServices />
       <WhyChooseUs />
-      <MusicSchoolTestimonials />
-      <UpcomingWebinars />
-      <Instructors />
+      <ShubhamEventsTestimonials />
+      <UpcomingEvents />
+      <ServiceProviders />
       <Footer />
     </main>
   );
