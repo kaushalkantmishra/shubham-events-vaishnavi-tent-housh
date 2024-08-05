@@ -12,7 +12,7 @@ const WhatsAppButton = () => {
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-4 right-4 bg-green-500 rounded-full p-3 shadow-lg hover:bg-green-600 transition"
+      className="fixed z-50 bottom-4 right-4 bg-green-500 rounded-full p-3 shadow-lg hover:bg-green-600 transition"
     >
       <FontAwesomeIcon icon={faWhatsapp} className="text-white w-10 h-10" />
     </a>
