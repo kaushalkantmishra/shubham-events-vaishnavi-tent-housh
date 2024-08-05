@@ -74,7 +74,7 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <p>Latehar, Jharkhand, India</p>
-          <p>Bajartad, Latehar - 829206</p>
+          <p>Bajartad (Near fire-brigade office), Latehar - 829206</p>
           <p>Email: sonikshubham60@gmail.com</p>
           <p>Phone: (+91) 8340561344</p>
         </div>
