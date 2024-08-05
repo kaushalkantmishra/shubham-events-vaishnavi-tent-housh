@@ -15,7 +15,7 @@
         "Personalized decor"
       ],
       "isFeatured": true,
-      "image": "/services/Wedding-ceremony.jpg"
+      "image": "/services/Wedding-Ceremony.jpg"
     },
     {
       "id": 2,
@@ -32,7 +32,7 @@
         "Legal formalities"
       ],
       "isFeatured": true,
-      "image": "/services/destination-wedding.jpg"
+      "image": "/services/Destination-Wedding.jpg"
     },
     {
       "id": 3,
@@ -49,7 +49,7 @@
         "Full event coordination"
       ],
       "isFeatured": false,
-      "image": "/services/social-events.jpg"
+      "image": "/services/Social-Events.jpg"
     },
     {
       "id": 4,
@@ -66,7 +66,7 @@
         "Networking opportunities"
       ],
       "isFeatured": true,
-      "image": "/services/corporate-events.jpg"
+      "image": "/services/Corporate-Events.jpg"
     },
     {
       "id": 5,
@@ -83,7 +83,7 @@
         "Party favors"
       ],
       "isFeatured": true,
-      "image": "/services/birthday-party.jpg"
+      "image": "/services/Birthday-Party.jpg"
     },
     {
       "id": 6,
@@ -100,7 +100,7 @@
         "Photo booths"
       ],
       "isFeatured": true,
-      "image": "/services/theme-party.jpg"
+      "image": "/services/Theme-Party.jpg"
     },
     {
       "id": 7,
@@ -117,7 +117,7 @@
         "Sponsorship opportunities"
       ],
       "isFeatured": false,
-      "image": "/services/college-fest.jpg"
+      "image": "/services/College-Fest.jpg"
     },
     {
       "id": 8,
@@ -134,7 +134,7 @@
         "Audience interaction"
       ],
       "isFeatured": true,
-      "image": "/services/live-singing.jpg"
+      "image": "/services/Live-Singing.jpg"
     },
     {
       "id": 9,
@@ -151,7 +151,7 @@
         "On-site support"
       ],
       "isFeatured": false,
-      "image": "/services/conferencing-seminars.jpg"
+      "image": "/services/Conferencing-Seminars.jpg"
     },
     {
       "id": 10,
@@ -168,7 +168,7 @@
         "On-site technical support"
       ],
       "isFeatured": true,
-      "image": "/services/light-sound.jpg"
+      "image": "/services/Light-Sound.jpg"
     },
     {
       "id": 11,
@@ -185,7 +185,7 @@
         "Venue transformation"
       ],
       "isFeatured": false,
-      "image": "/services/decoration.jpg"
+      "image": "/services/Decoration.jpg"
     },
     {
       "id": 12,
@@ -202,7 +202,7 @@
         "On-site management"
       ],
       "isFeatured": false,
-      "image": "/services/stage-setup.jpg"
+      "image": "/services/Stage-Setup.jpg"
     },
     {
       "id": 13,
@@ -219,7 +219,7 @@
         "Online gallery"
       ],
       "isFeatured": true,
-      "image": "/services/photography.jpg"
+      "image": "/services/Photography.jpg"
     },
     {
       "id": 14,
@@ -236,7 +236,7 @@
         "Editing and post-production"
       ],
       "isFeatured": true,
-      "image": "/services/videography.jpg"
+      "image": "/services/Videography.jpg"
     }
   ]
 }

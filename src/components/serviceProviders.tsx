@@ -7,7 +7,7 @@ const serviceProviders = [
     id: 1,
     name: "Shubham Gupta",
     designation: "Wedding Planner",
-    image: "/serviceProviders/Wedding-planner.jpg",
+    image: "/serviceProviders/Wedding-Planner.jpg",
   },
   {
     id: 2,
