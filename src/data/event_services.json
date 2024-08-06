@@ -121,20 +121,20 @@
     },
     {
       "id": 8,
-      "title": "Live Singing",
-      "slug": "live-singing",
-      "description": "Book live singing performances for a musical experience. From solo acts to bands, we provide a wide range of musical genres.",
-      "price": 5000.0,
-      "duration": "1-2 hours",
+      "title": "Buffet Catering",
+      "slug": "buffet-catering",
+      "description": "A comprehensive buffet catering service offering a wide variety of dishes to suit all tastes. Ideal for weddings, corporate events, and parties.",
+      "price": 15000.0,
+      "duration": "Event duration",
       "location": "Any venue",
       "highlights": [
-        "Professional singers",
-        "Custom setlists",
-        "Sound system setup",
-        "Audience interaction"
+        "Wide range of cuisines",
+        "Customizable menu",
+        "Professional chefs and staff",
+        "Elegant presentation"
       ],
       "isFeatured": true,
-      "image": "/services/Live-Singing.jpg"
+      "image": "/services/Buffet-Catering.jpg"
     },
     {
       "id": 9,

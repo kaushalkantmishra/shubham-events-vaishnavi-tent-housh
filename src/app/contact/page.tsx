@@ -6,10 +6,26 @@ import { BackgroundBeams } from "@/components/ui/background-beams";
 function ContactUs() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<string | null>(null);
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log("Submitted:", { email, message });
+
+    const response = await fetch("/api/sendEmail", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, message }),
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      setStatus("Your message has been sent successfully!");
+      setEmail("");
+      setMessage("");
+    } else {
+      setStatus("Failed to send message.");
+    }
   };
 
   return (
@@ -48,6 +64,7 @@ function ContactUs() {
             Send Message
           </button>
         </form>
+        {status && <p className="mt-4 text-center text-white">{status}</p>}
       </div>
     </div>
   );
