@@ -38,6 +38,13 @@ export const StickyScroll = ({
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
     "linear-gradient(to bottom right, var(--orange-500), var(--yellow-500))",
   ];
+
+  // image urls for sticky-scroll
+  // const imageUrls = [
+  //   "/services/Birthday-Party.jpg",
+  //   "/services/Buffet-Catering.jpg",
+  //   "/services/College-Fest.jpg",
+  // ];
   return (
     <motion.div
       animate={{
@@ -84,6 +91,12 @@ export const StickyScroll = ({
         animate={{
           background: linearGradients[activeCard % linearGradients.length],
         }}
+        // if want is image in place of gradient color
+        // animate={{
+        //   backgroundImage: `url(${imageUrls[activeCard % imageUrls.length]})`,
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "center",
+        // }}
         className="hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden"
       ></motion.div>
     </motion.div>
